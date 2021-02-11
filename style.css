@@ -1,3 +1,20 @@
+/* declare variables */
+:root {
+  --base: #318b3d;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: var(--blur);
+}
+
+.hl {
+  color: var(--base);
+}
+
 body {
   text-align: center;
 }
